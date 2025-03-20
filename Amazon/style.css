@@ -48,6 +48,8 @@
     width: 620px;
     height: 40px;
     border-radius: 4px;
+    border: 2px solid #0f1111;
+    background-color: #0f1111;
 }
 .search-select{
     background-color: #f3f3f3;
@@ -61,6 +63,9 @@
     width: 100%;
     font-size: 1rem;
     border: none;
+}
+.search-input:focus-visible{
+    outline: none;
 }
 .search-icon{
     width: 45px;
